@@ -1,0 +1,503 @@
+.root{
+    --maindanger:rgb(226, 37, 125);
+}
+
+body{
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gelasio', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Noto Serif', serif;
+    
+    overflow-x: hidden;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../image/student-watching-webinar-online_274689-12985.jpg") center/cover no-repeat;
+    width: 100%;
+    height: 66vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    object-fit: cover;
+}
+
+.bo {
+    border-left: 3px solid rgb(85, 85, 85);
+    transition: all 0.3s;
+}
+
+.bo:hover {
+    border-left: 1px solid rgb(226, 37, 125);
+    transform: scale(1.2);
+}
+
+.ma-s {
+    margin-left: 10%;
+}
+
+.picturs {
+    background-image:url("../image/4.jpeg");
+    width: 30rem;
+    height: 40rem;
+    position: absolute;
+    left: 7rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.picturs:hover {
+    opacity: 0.4;
+}
+
+.p-home {
+    color: white;
+    font-size: 15px;
+    padding-right: 5rem;
+    padding-bottom: 3em;
+}
+
+.border {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: aliceblue;
+    transition: all 0.5s;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(0px);  
+    background-color: aliceblue; 
+}
+
+a:hover .top {
+    width: 30rem;
+    background-color: rgb(226, 37, 125);
+}
+
+.left {
+    position: absolute;
+    left:0;
+    top: 0;
+    transform: translatey(0);
+
+}
+
+a:hover .left {
+    height: 40rem;
+    background-color: rgb(226, 37, 125);
+}
+
+.pictur-p {
+    opacity: 0;
+    position: absolute;
+    top: 15rem;
+    left: 9rem;
+    font-size: 50px;
+    transition: all 1s;
+}
+
+.picturs:hover >p {
+    opacity: 1;
+    color: rgb(226, 37, 125);
+    z-index: 1009;
+}
+
+.color-s {
+    color: rgb(226, 37, 125);
+}
+
+.font {
+    font-size: 80px;
+    transition: all 1s;
+}
+
+.font:hover {
+    text-shadow: 290px 0px rgb(223, 157, 187);
+}
+
+.font-h1 {
+    color: rgba(226, 37, 125);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3rem;
+} 
+
+.about {
+    width: 100%;
+    height: 65vw;
+    position: relative;
+    background-color: rgb(45, 44, 45);
+    border-top: 0.5px solid white;
+}
+
+.borderr {
+    position: absolute;
+    right: 4rem;
+    width: 25rem;
+    height: 30rem;
+    border: 3px solid rgba(226, 37, 125);
+    border-radius: 5px;
+    margin-top: 6rem;
+    background-color: transparent;
+}
+
+.ax {
+    position: absolute;
+    right: 8rem;
+    top: 16rem;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 5px;
+    background-image: url("../image/woman_writing_at_laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.ax:hover {
+    transform: translateX(47px) translateY(-44px);
+    opacity: 0.2;
+}
+
+.p-ax {
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    color: black;
+    font-size: 50px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.ax:hover> p {
+    opacity: 1;
+}
+
+.p-sorati {
+    color: black;
+    transition: all 1s;
+}
+
+.p-sorati:hover {
+    color: white;
+}
+
+.margin-t {
+    margin-top: 6rem;
+}
+
+.font-s {
+    font-size: 50px;
+    color: rgb(226, 37, 125);
+}
+
+.b-r-prev {
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 35rem;
+    margin-right: 18rem;
+}
+
+.b-r-prev:hover {
+    border: 1px solid rgb(226, 37, 125);
+}
+
+.b-r-next {
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 35rem;
+    margin-left: 18rem;
+}
+
+.b-r-next:hover {
+    border: 1px solid rgb(226, 37, 125);
+}
+
+.skills {
+    width: 100%;
+    height: 75vw;
+    position: relative;
+    background-color: rgb(45, 44, 45);
+    border-top: 1px solid white;    
+}
+
+.sk {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: rgb(226, 37, 125, 0.5);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.sk:hover {
+    background-color: rgb(226, 37, 125, 1);
+    color: black;
+    transform: translateY(-15px);
+}
+
+.mar-top {
+    margin-top: 5rem;
+}
+
+.our-clients {
+    width: 100%;
+    height: 60vw;
+    position: relative;
+    background: linear-gradient(rgb(45, 44, 45, 0.8),rgb(45, 44, 45, 1)),
+    url("../image/BDs1gK.jpg") center/cover no-repeat;
+    border-top: 1px solid white;    
+}
+
+.box {
+    width: 25rem;
+    height: 18rem;
+    background-color: rgb(226, 37, 125, 0.7);
+    margin: 6rem 0;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.box:hover {
+    background-color: rgb(226, 37, 125, 1);
+    color: white;
+}
+
+.mar-top {
+    margin-top: 1rem;
+}
+
+.img-radi {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -4rem;
+    left: 8rem;
+}
+
+.fo {
+    font-size: 70px;
+    text-align: center;   
+}
+
+.work {
+    width: 100%;
+    height: 95vw;
+    position: relative;
+    background-color: rgb(45, 44, 45);
+    border-top: 1px solid white;
+}
+
+.img-op {
+    opacity: 0.8;
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    margin-top: 5rem;
+    border: 1px solid white;
+    position: relative;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.img-op:hover {
+    opacity: 0.2;
+    transform: rotate(-360deg);
+}
+
+.works-p {
+    opacity: 0;
+    transition: all 1s;
+    z-index: 1000000;
+    position: relative;
+
+}
+
+.works:hover > h3,p  {
+    position: relative;
+    opacity: 1;
+}
+
+.blog {
+    width: 100%;
+    height: 60vw;
+    position: relative;
+    background-color: rgb(45, 44, 45);
+    border-top: 1px solid white;
+}
+
+.card-width {
+    width: 18rem;
+    cursor: pointer;
+}
+
+.img-card {
+    height: 14rem;
+    clip-path: polygon(100% 100%, 0% 85%, 0% 0%, 100% 0%);
+    object-fit: cover;
+}
+
+.img-card:hover {
+    opacity: 0.7; 
+}
+
+.card:hover {
+    box-shadow:0 0 10px 0  #fdfdfd;
+}
+
+
+.ju {
+    justify-content: space-around;
+}
+
+
+.contact {
+    width: 100%;
+    height: 35vw;
+    position: relative;
+    background-color: rgb(45, 44, 45);
+    border-top: 1px solid white;
+}
+
+.contacts {
+    width: 20rem;
+    height: 13rem;
+    background-color: white;
+    border: 3px solid rgb(226, 37, 125);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.contacts:hover {
+    background-color: rgb(226, 37, 125);
+    border: 3px solid white;
+}
+
+.m-s {
+   margin: 0 6rem;
+}
+
+.footer {
+    width: 100%;
+    height: 70vw;
+    position: relative;
+    background:linear-gradient(rgb(45, 44, 45, 0.8),rgb(45, 44, 45, 0.4)), 
+    url("../image/TCCXBSZnT5z544NnU8sk5U-1200-80.jpg") center/cover no-repeat;
+}
+
+.input {
+    margin-top: 6rem;
+    width: 100%;
+    height: 40px;
+    border: 1.5px solid rgb(226, 37, 125);
+}
+
+
+.textarea {
+    width: 98%;
+    margin-left: 12px;
+    border: 1.5px solid rgb(226, 37, 125);
+}
+
+.icons {
+    font-size: 40px;
+    color: white;
+    margin-top: 15rem;
+}
+
+.icon {
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.icon:hover {
+    color: rgb(226, 37, 125);
+    transform: scale(1.5);
+}
+
+.bord {
+    border-right: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.t-sorati {
+    color: rgb(226, 37, 125);
+}
+
+.btn-foot {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

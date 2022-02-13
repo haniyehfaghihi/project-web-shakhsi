@@ -1,0 +1,577 @@
+@media (max-width:2655px) {
+    .header {        
+        height: 35vw;              
+    }
+    .picturs {
+        left: 35rem;
+    }
+    .about {
+        height: 40vw;
+    }
+    .borderr {
+        right: 22rem;
+        width: 35rem;
+        height: 40rem;
+    }
+    .ax {
+        right: 26rem;
+        width: 35rem;
+        height: 40rem; 
+    }
+    .ax:hover {
+        transform: translateX(60px) translateY(-44px);
+    }
+    .skills {
+        height: 50vw;
+    }
+    .our-clients {
+        height: 35vw;  
+    }
+    .work {
+        height: 55vw;
+    }
+    .blog {
+        height: 30vw;
+    }
+    .contact {
+        height: 25vw;
+    }
+    .footer {
+        height: 50vw;
+    }
+}
+
+@media (max-width:2300px) {
+    .header {        
+        height: 45vw;              
+    }
+    .picturs {
+        left: 25rem;
+    }
+    .about {
+        height: 50vw;
+    }
+    .borderr {
+        right: 15rem;
+        width: 35rem;
+        height: 40rem;
+    }
+    .ax {
+        right: 20rem;
+        width: 35rem;
+        height: 40rem; 
+    }
+    .ax:hover {
+        transform: translateX(77px) translateY(-44px);
+    }
+    .work {
+        height: 65vw;
+    }
+    .blog {
+        height: 45vw;
+    }
+    .footer {
+        height: 45vw;
+    }
+}
+
+@media (max-width:1900px) {
+    .header {        
+        height: 50vw;              
+    }
+    .picturs {
+        left: 18rem;
+    }
+    .about {
+        height: 60vw;
+    }
+    .borderr {
+        right: 10rem;
+        width: 35rem;
+        height: 40rem;
+    }
+    .ax {
+        right: 13rem;
+        width: 35rem;
+        height: 40rem; 
+    }
+    .ax:hover {
+        transform: translateX(47px) translateY(-44px);
+    }
+    .skills {
+        height: 70vw;
+    }
+    .our-clients {
+        height: 45vw;  
+    }
+    .work {
+        height: 75vw;
+    }
+    .contact {
+        height: 35vw;
+    }
+    .footer {
+        height: 66vw;
+    }
+}
+
+@media (max-width:1600px) {
+    .header {        
+        height: 60vw;              
+    }
+    .picturs {
+        left: 12rem;
+    }
+    .about {
+        height: 65vw;
+    }
+    .borderr {
+        right: 4rem;       
+    }
+    .ax {
+        right: 7rem; 
+    }
+    .work {
+        height: 85vw;
+    }
+    .blog {
+        height: 60vw;
+    }
+    .contact {
+        height: 55vw;
+    }
+}
+
+@media (max-width:1400px) {
+    .header {        
+        height: 68vw;              
+    }
+    .picturs {
+        left: 7rem;
+    }
+    .about {
+        height: 75vw;
+    }
+    .borderr {
+        right: 5rem;  
+        width: 25rem;
+        height: 30rem;     
+    }
+    .ax {
+        right: 8rem; 
+        width: 25rem;
+        height: 30rem;
+    }
+    .b-r-prev {
+        margin-top: 38rem;
+        margin-right: 15rem;
+    }
+    .b-r-next {
+        margin-top: 38rem;
+        margin-left: 15rem;
+    }
+    .skills {
+        height: 80vw;
+    }
+    .our-clients {
+        height: 60vw;  
+    }
+    .work {
+        height: 100vw;
+    }
+    .footer {
+        height: 75vw;
+    }
+}
+
+@media (max-width:1200px) {
+    .header {        
+        height: 85vw;              
+    }
+    .ma-s {
+        margin-left: 0;
+    }
+    .picturs {
+        left: 3rem;
+        width: 25rem;
+        height: 35rem;
+    }
+    a:hover .top {
+        width: 25rem;
+    }
+    a:hover .left {
+        height: 35rem;
+    }
+    .about {
+        height: 85vw;
+    }
+    .borderr {
+        right: 4rem;  
+        width: 25rem;
+        height: 30rem;     
+    }
+    .ax {
+        right: 7rem; 
+        width: 25rem;
+        height: 30rem;
+    }
+    .b-r-prev {
+        margin-top: 35rem;
+        margin-right: 10rem;
+    }
+    .b-r-next {
+        margin-top: 35rem;
+        margin-left: 10rem;
+    }
+    .skills {
+        height: 140vw;
+    }
+    .our-clients {
+        height: 110vw;  
+    }
+    .box {
+        width: 55rem;
+    }
+    .img-radi {
+        left: 22rem;
+    }
+    .work {
+        height: 120vw;
+    }
+    .blog {
+        height: 125vw;
+    }
+    .contact {
+        height: 70vw;
+    }
+    .m-s {
+        margin: 0 3rem;
+    }
+    .footer {
+        height: 90vw;
+    }
+}
+
+@media (max-width:992px) {
+    .header {        
+        height: 160vw;              
+    }
+    .picturs {
+        top: 50rem;
+        left: 15rem;
+        width: 25rem;
+        height: 35rem;
+    }
+    a:hover .top {
+        width: 25rem;
+    }
+    a:hover .left {
+        height: 35rem;
+    }
+    .box-p {
+        margin-left: 10rem;
+    }
+    .about {
+        height: 120vw;
+    }
+    .borderr {
+        display: none;    
+    }
+    .ax {
+        display: none;
+    }
+    .skills {
+        height: 190vw;
+    }
+    .our-clients {
+        height: 130vw;  
+    }
+    .box {
+        width: 35rem;
+    }
+    .mar-top {
+        padding: 0 5rem;
+    }
+    .img-radi {
+        left: 13rem;
+    }
+    .work {
+        height: 155vw;
+    }
+    .blog {
+        height: 190vw;
+    }
+    .card-width {
+        width: 40rem;
+        margin-bottom: 3rem;
+    }
+    .contact {
+        height: 80vw;
+    }
+    .m-s {
+        margin: 0 1rem;
+    }
+    .footer {
+        height: 110vw;
+    }
+    .textarea {
+        width: 97%;
+        margin-left: 12px;
+    }
+    .btn-foot {
+        width: 97%;
+    }
+}
+
+@media (max-width:870px) {
+    .header {        
+        height: 180vw;              
+    }
+    .picturs {
+        top: 50rem;
+        left: 15rem;
+        width: 25rem;
+        height: 35rem;
+    }
+    a:hover .top {
+        width: 25rem;
+    }
+    a:hover .left {
+        height: 35rem;
+    }
+    .box-p {
+        margin-left: 10rem;
+    }
+    .skills {
+        height: 220vw;
+    }
+    .our-clients {
+        height: 150vw;  
+    }
+    .box {
+        width: 35rem;
+    }
+    .mar-top {
+        padding: 0 5rem;
+    }
+    .blog {
+        height: 230vw;
+    }
+    .card-width {
+        width: 30rem;
+        margin-bottom: 3rem;
+    }
+    .contact {
+        height: 90vw;
+    }
+    .footer {
+        height: 140vw;
+    }
+}
+
+@media (max-width:765px) {
+    .header {        
+        height: 200vw;              
+    }
+    .picturs {
+        top: 50rem;
+        left: 8rem;
+        width: 25rem;
+        height: 35rem;
+    }
+    a:hover .top {
+        width: 25rem;
+    }
+    a:hover .left {
+        height: 35rem;
+    }
+    .box-p {
+        margin-left: 6rem;
+    }
+    .about {
+        height: 150vw;
+    }
+    .borderr {
+        display: none;    
+    }
+    .ax {
+        display: none;
+    }
+    .skills {
+        height: 240vw;
+    }
+    .our-clients {
+        height: 170vw;  
+    }
+    .box {
+        width: 35rem;
+    }
+    .mar-top {
+        padding: 0 5rem;
+    }
+    .work {
+        height: 160vw;
+    }
+    .img-op {
+        width: 15rem;
+        height: 15rem;
+    }
+    .blog {
+        height: 260vw;
+    }
+    .card-width {
+        width: 30rem;
+        margin-bottom: 3rem;
+    }
+    .contact {
+        height: 110vw;
+    }
+    .footer {
+        height: 180vw;
+    }
+    .textarea {
+        width: 96%;
+        margin-left: 12px;
+    }
+    .btn-foot {
+        width: 96%;
+        margin-left: 10px;
+    }   
+}
+
+@media (max-width:700px) {
+    .header {        
+        height: 220vw;              
+    }
+    .picturs {
+        top: 50rem;
+        left: 6rem;
+        width: 25rem;
+        height: 35rem;
+    }
+    a:hover .top {
+        width: 25rem;
+    }
+    a:hover .left {
+        height: 35rem;
+    }
+    .box-p {
+        margin-left: 6rem;
+    }
+    .skills {
+        height: 270vw;
+    }
+    .our-clients {
+        height: 190vw;  
+    }
+    .box {
+        width: 35rem;
+    }
+    .mar-top {
+        padding: 0 3rem;
+    }
+    .contact {
+        height: 160vw;
+    }
+}
+
+@media (max-width:620px) {
+    .header {        
+        height: 240vw;              
+    }
+    .picturs {
+        top: 50rem;
+        left: 6rem;
+        width: 25rem;
+        height: 35rem;
+    }
+    a:hover .top {
+        width: 25rem;
+    }
+    a:hover .left {
+        height: 35rem;
+    }
+    .box-p {
+        margin-left: 6rem;
+    }
+    .skills {
+        height: 290vw;
+    }
+    .blog {
+        height: 290vw;
+    }
+    .card-width {
+        width: 30rem;
+        margin-bottom: 3rem;
+    }
+    .footer {
+        height: 200vw;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .header {        
+        height: 280vw;              
+    }
+    .picturs {
+        top: 50rem;
+        left: 4rem;
+        width: 25rem;
+        height: 35rem;
+    }
+    a:hover .top {
+        width: 25rem;
+    }
+    a:hover .left {
+        height: 35rem;
+    }
+    .box-p {
+        margin-left: 4rem;
+    }
+    .about {
+        height: 185vw;
+    }
+    .borderr {
+        display: none;    
+    }
+    .ax {
+        display: none;
+    }
+    .skills {
+        height: 335vw;
+    }
+    .our-clients {
+        height: 210vw;  
+    }
+    .box {
+        width: 30rem;
+    }
+    .mar-top {
+        padding: 0 3rem;
+    }
+    .img-radi {
+        left: 10rem;
+    }
+    .work {
+        height: 200vw;
+    }
+    .img-op {
+        width: 15rem;
+        height: 15rem;
+    }
+    .blog {
+        height: 320vw;
+    }
+    .contact {
+        height: 180vw;
+    }
+    .footer {
+        height: 180vw;
+    }
+    .footer {
+        height: 230vw;
+    }
+}
+
+
