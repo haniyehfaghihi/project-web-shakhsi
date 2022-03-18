@@ -323,14 +323,40 @@ a:hover .left {
     margin-top: 5rem;
     border: 1px solid white;
     position: relative;
-    transition: all 1s;
+    transition: all 0.6s;
     cursor: pointer;
 }
 
-.img-op:hover {
+.io1:hover {
     opacity: 0.2;
-    transform: rotate(-360deg);
+    transform: rotate(-10deg);
 }
+
+.io2:hover {
+    opacity: 0.2;
+    transform: rotate(20deg);
+}
+
+.io3:hover {
+    opacity: 0.2;
+    transform: rotate(10deg);
+}
+
+.io4:hover {
+    opacity: 0.2;
+    transform: rotate(-20deg);
+}
+
+.io5:hover {
+    opacity: 0.2;
+    transform: rotate(-10deg);
+}
+
+.io6:hover {
+    opacity: 0.2;
+    transform: rotate(20deg);
+}
+
 
 .works-p {
     opacity: 0;
@@ -416,14 +442,16 @@ a:hover .left {
     margin-top: 6rem;
     width: 100%;
     height: 40px;
-    border: 1.5px solid rgb(226, 37, 125);
+    border: 1.5px solid rgb(43, 33, 38);
+    transition: all 0.6s;
 }
 
 
 .textarea {
     width: 98%;
     margin-left: 12px;
-    border: 1.5px solid rgb(226, 37, 125);
+    border: 1.5px solid rgb(43, 33, 38);
+    transition: all 0.6s;
 }
 
 .icons {
