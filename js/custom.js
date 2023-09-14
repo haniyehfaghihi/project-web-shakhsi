@@ -4,9 +4,9 @@ $(document).ready(function() {
     // alert("hi...welcome to my site:)))");
 
 
-    $("#home-btn").one("focus",function(e){
-        $(".box-p").append("<p class=p-home>She ipsum dolor sit amet consectetur adipisicing elit. Molestiae atque modi blanditiis unde, impedit fugiat debitis qui eos alias similique dolore!Adipisci id nulla tempora debitis earum quia velit.</p>");
-    });
+//     $("#home-btn").one("focus",function(e){
+//         $(".box-p").append("<p class=p-home>She ipsum dolor sit amet consectetur adipisicing elit. Molestiae atque modi blanditiis unde, impedit fugiat debitis qui eos alias similique dolore!Adipisci id nulla tempora debitis earum quia velit.</p>");
+//     });
  
  
  
