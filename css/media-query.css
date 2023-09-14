@@ -1,120 +1,3 @@
-@media (max-width:2655px) {
-    .header {        
-        height: 35vw;              
-    }
-    .picturs {
-        left: 35rem;
-    }
-    .about {
-        height: 40vw;
-    }
-    .borderr {
-        right: 22rem;
-        width: 35rem;
-        height: 40rem;
-    }
-    .ax {
-        right: 26rem;
-        width: 35rem;
-        height: 40rem; 
-    }
-    .ax:hover {
-        transform: translateX(60px) translateY(-44px);
-    }
-    .skills {
-        height: 50vw;
-    }
-    .our-clients {
-        height: 35vw;  
-    }
-    .work {
-        height: 55vw;
-    }
-    .blog {
-        height: 30vw;
-    }
-    .contact {
-        height: 25vw;
-    }
-    .footer {
-        height: 50vw;
-    }
-}
-
-@media (max-width:2300px) {
-    .header {        
-        height: 45vw;              
-    }
-    .picturs {
-        left: 25rem;
-    }
-    .about {
-        height: 50vw;
-    }
-    .borderr {
-        right: 15rem;
-        width: 35rem;
-        height: 40rem;
-    }
-    .ax {
-        right: 20rem;
-        width: 35rem;
-        height: 40rem; 
-    }
-    .ax:hover {
-        transform: translateX(77px) translateY(-44px);
-    }
-    .work {
-        height: 65vw;
-    }
-    .blog {
-        height: 45vw;
-    }
-    .footer {
-        height: 45vw;
-    }
-}
-
-@media (max-width:1900px) {
-    .header {        
-        height: 50vw;              
-    }
-    .picturs {
-        left: 18rem;
-    }
-    .about {
-        height: 60vw;
-    }
-    .borderr {
-        right: 10rem;
-        width: 35rem;
-        height: 40rem;
-    }
-    .ax {
-        right: 13rem;
-        width: 35rem;
-        height: 40rem; 
-    }
-    .ax:hover {
-        transform: translateX(47px) translateY(-44px);
-    }
-    .skills {
-        height: 70vw;
-    }
-    .our-clients {
-        height: 45vw;  
-    }
-    .work {
-        height: 75vw;
-    }
-    .contact {
-        height: 35vw;
-    }
-    .footer {
-        height: 66vw;
-    }
-}
-
 @media (max-width:1600px) {
     .header {        
         height: 60vw;              
@@ -132,13 +15,16 @@
         right: 7rem; 
     }
     .work {
-        height: 85vw;
+        height: 140vh;
     }
     .blog {
-        height: 60vw;
+        height: 110vh;
     }
     .contact {
-        height: 55vw;
+        height: 110vh;
+    }
+    .footer {
+        height: 110vh;
     }
 }
 
@@ -175,12 +61,6 @@
     }
     .our-clients {
         height: 60vw;  
-    }
-    .work {
-        height: 100vw;
-    }
-    .footer {
-        height: 75vw;
     }
 }
 
@@ -235,20 +115,8 @@
     .img-radi {
         left: 22rem;
     }
-    .work {
-        height: 120vw;
-    }
-    .blog {
-        height: 125vw;
-    }
-    .contact {
-        height: 70vw;
-    }
     .m-s {
         margin: 0 3rem;
-    }
-    .footer {
-        height: 90vw;
     }
 }
 
@@ -295,31 +163,15 @@
     .img-radi {
         left: 13rem;
     }
-    .work {
-        height: 155vw;
-    }
-    .blog {
-        height: 190vw;
-    }
     .card-width {
         width: 40rem;
         margin-bottom: 3rem;
     }
-    .contact {
-        height: 80vw;
-    }
     .m-s {
         margin: 0 1rem;
     }
-    .footer {
-        height: 110vw;
-    }
-    .textarea {
-        width: 97%;
-        margin-left: 12px;
-    }
-    .btn-foot {
-        width: 97%;
+    .blog {
+        height: 180vh;
     }
 }
 
@@ -354,18 +206,9 @@
     .mar-top {
         padding: 0 5rem;
     }
-    .blog {
-        height: 230vw;
-    }
     .card-width {
         width: 30rem;
         margin-bottom: 3rem;
-    }
-    .contact {
-        height: 90vw;
-    }
-    .footer {
-        height: 140vw;
     }
 }
 
@@ -389,7 +232,7 @@
         margin-left: 6rem;
     }
     .about {
-        height: 150vw;
+        height: 150vh;
     }
     .borderr {
         display: none;    
@@ -410,33 +253,16 @@
         padding: 0 5rem;
     }
     .work {
-        height: 160vw;
+        height: 100vh;
     }
     .img-op {
         width: 15rem;
         height: 15rem;
     }
-    .blog {
-        height: 260vw;
-    }
     .card-width {
         width: 30rem;
         margin-bottom: 3rem;
     }
-    .contact {
-        height: 110vw;
-    }
-    .footer {
-        height: 180vw;
-    }
-    .textarea {
-        width: 96%;
-        margin-left: 12px;
-    }
-    .btn-foot {
-        width: 96%;
-        margin-left: 10px;
-    }   
 }
 
 @media (max-width:700px) {
@@ -471,7 +297,7 @@
         padding: 0 3rem;
     }
     .contact {
-        height: 160vw;
+        height: 100vh;
     }
 }
 
@@ -491,23 +317,19 @@
     a:hover .left {
         height: 35rem;
     }
+    .about {
+        height: 160vh;
+    }
     .box-p {
         margin-left: 6rem;
     }
     .skills {
         height: 290vw;
     }
-    .blog {
-        height: 290vw;
-    }
     .card-width {
         width: 30rem;
         margin-bottom: 3rem;
     }
-    .footer {
-        height: 200vw;
-    }
-    
 }
 
 @media (max-width:576px) {
@@ -538,6 +360,12 @@
     .ax {
         display: none;
     }
+    .b-r-next {
+        margin-top: 40rem;
+    }
+    .b-r-prev {
+        margin-top: 40rem;
+    }
     .skills {
         height: 335vw;
     }
@@ -553,25 +381,134 @@
     .img-radi {
         left: 10rem;
     }
-    .work {
-        height: 200vw;
-    }
     .img-op {
         width: 15rem;
         height: 15rem;
     }
     .blog {
-        height: 320vw;
-    }
-    .contact {
-        height: 180vw;
+        height: 190vh;
     }
     .footer {
-        height: 180vw;
+        height: 105vh;
     }
-    .footer {
-        height: 230vw;
+    .display-input {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .header {        
+        height: 300vw;              
+    }
+    .font {
+        font-size: 55px;
+    }
+    .picturs {
+        width: 20rem;
+        height: 30rem;
+        left: 4rem;
+    }
+    a:hover .top {
+        width: 20rem;
+    }
+    a:hover .left {
+        height: 30rem;
+    }
+    .pictur-p {
+        top: 12rem;
+        left: 6rem;
+        font-size: 30px;
+    }
+    .box-p {
+        margin-left: 2rem;
+    }
+    .about {
+        height: 200vh;
+    }
+    .b-r-next {
+        margin-top: 60rem;
+        margin-left: 5rem;
+    }
+    .b-r-prev {
+        margin-top: 60rem;
+        margin-right: 5rem;
+    }
+    .work {
+        height: 100vh;
+    }
+    .skills {
+        height: 330vh;
+    }
+    .display-skills {
+        display: none;
     }
 }
 
+@media (max-width:455px) {
+    .header {        
+        height: 330vw;              
+    }
+}
+
+@media (max-width:410px) {
+    .header {        
+        height: 350vw;              
+    }
+    .picturs {
+        left: 1rem;
+    }
+}
+
+@media (max-width:380px) {
+    .header {        
+        height: 380vw;              
+    }
+    .picturs {
+        left: 2rem;
+        width: 15rem;
+        height: 25rem;
+    }
+    .font {
+        font-size: 43px;
+    }
+    a:hover .top {
+        width: 15rem;
+    }
+    a:hover .left {
+        height: 25rem;
+    }
+    .pictur-p {
+        top: 10rem;
+        left: 4rem;
+        font-size: 25px;
+    }
+    .box-p {
+        margin-left: 1rem;
+    }
+    .about {
+        height: 250vh;
+    }
+    .b-r-next {
+        margin-top: 70rem;
+        margin-left: 2rem;
+    }
+    .b-r-prev {
+        margin-top: 70rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width:320px) {
+    .header {        
+        height: 380vw;              
+    }
+    .picturs {
+        left: 1rem;
+    }
+    .about {
+        height: 290vh;
+    }
+}
 
