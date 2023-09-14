@@ -15,7 +15,7 @@
         right: 7rem; 
     }
     .work {
-        height: 140vh;
+        height: 190vh;
     }
     .blog {
         height: 110vh;
@@ -171,7 +171,7 @@
         margin: 0 1rem;
     }
     .blog {
-        height: 180vh;
+        height: 280vh;
     }
 }
 
@@ -253,7 +253,7 @@
         padding: 0 5rem;
     }
     .work {
-        height: 100vh;
+        height: 140vh;
     }
     .img-op {
         width: 15rem;
@@ -262,6 +262,9 @@
     .card-width {
         width: 30rem;
         margin-bottom: 3rem;
+    }
+    .contact {
+        height: 150vh;
     }
 }
 
@@ -295,9 +298,6 @@
     }
     .mar-top {
         padding: 0 3rem;
-    }
-    .contact {
-        height: 100vh;
     }
 }
 
@@ -385,11 +385,8 @@
         width: 15rem;
         height: 15rem;
     }
-    .blog {
-        height: 190vh;
-    }
     .footer {
-        height: 105vh;
+        height: 130vh;
     }
     .display-input {
         display: flex;
@@ -408,7 +405,7 @@
     .picturs {
         width: 20rem;
         height: 30rem;
-        left: 4rem;
+        left: 5rem;
     }
     a:hover .top {
         width: 20rem;
@@ -435,9 +432,6 @@
         margin-top: 60rem;
         margin-right: 5rem;
     }
-    .work {
-        height: 100vh;
-    }
     .skills {
         height: 330vh;
     }
@@ -457,7 +451,7 @@
         height: 350vw;              
     }
     .picturs {
-        left: 1rem;
+        left: 2rem;
     }
 }
 
@@ -466,7 +460,7 @@
         height: 380vw;              
     }
     .picturs {
-        left: 2rem;
+        left: 3rem;
         width: 15rem;
         height: 25rem;
     }
@@ -505,7 +499,7 @@
         height: 380vw;              
     }
     .picturs {
-        left: 1rem;
+        left: 1.5rem;
     }
     .about {
         height: 290vh;
