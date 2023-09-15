@@ -422,14 +422,14 @@
         margin-left: 2rem;
     }
     .about {
-        height: 200vh;
+        height: 180vh;
     }
     .b-r-next {
-        margin-top: 60rem;
+        margin-top: 50rem;
         margin-left: 5rem;
     }
     .b-r-prev {
-        margin-top: 60rem;
+        margin-top: 50rem;
         margin-right: 5rem;
     }
     .skills {
@@ -482,7 +482,7 @@
         margin-left: 1.5rem;
     }
     .about {
-        height: 250vh;
+        height: 230vh;
     }
     .b-r-next {
         margin-top: 70rem;
@@ -502,7 +502,15 @@
         left: 2rem;
     }
     .about {
-        height: 290vh;
+        height: 270vh;
+    }
+    .b-r-next {
+        margin-top: 90rem;
+        margin-left: 2rem;
+    }
+    .b-r-prev {
+        margin-top: 90rem;
+        margin-right: 2rem;
     }
 }
 
